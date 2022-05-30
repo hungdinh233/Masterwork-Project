@@ -820,7 +820,7 @@
 
 .booking {
   width: 100%;
-  height: 350px;
+  height: 450px;
   /* background-color: orange; */
   display: flex;
   justify-content: center;
@@ -834,7 +834,9 @@
   align-items: center;
   flex-direction: column;
 }
-
+.booking .tools__top {
+  height: 160px;
+}
 .booking__button {
   width: 40%;
   height: 80px;
@@ -892,9 +894,8 @@
   width: 100%;
   height: 400px;
   /* background-color: yellow; */
-  border-bottom:  rgba(175, 171, 171, 0.3) solid .5px;
+  border-bottom: rgba(175, 171, 171, 0.3) solid 0.5px;
   display: flex;
-  
 }
 .footer__top__r {
   width: 50%;
@@ -982,19 +983,19 @@
 
 .email__box p {
   font-size: 16px;
-  color: #5a5a5a
+  color: #5a5a5a;
 }
 
 .footer__bottom .footer__bot__right i {
-  font-size:19px;
+  font-size: 19px;
   margin-right: 20px;
 }
 .footer__bottom .footer__bot__right a {
   color: #2c3038;
-  transition: all .6s;
+  transition: all 0.6s;
 }
 .footer__bottom .footer__bot__right a:hover {
-  color:  #dc4f72;
+  color: #dc4f72;
 }
 
 .footer__bottom {
@@ -1002,5 +1003,16 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  
 }
+/* video */
+/* video */
+/* video */
+/* video */
+.video {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
