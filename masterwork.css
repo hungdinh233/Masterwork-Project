@@ -1015,4 +1015,75 @@
   justify-content: center;
   align-items: center;
 }
+/* CSS CONTACT */
+/* CSS CONTACT */
+/* CSS CONTACT */
+/* CSS CONTACT */
 
+.log{
+  width: 100%;
+  height: 95px;
+  background-color: #1c6ae0;
+  display: flex;
+  align-items: flex-end;
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+
+/* contact us */
+.contact{
+  width: 100%;
+  height: 700px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justifcontact__emaily-content: center;
+  align-items: center;
+}
+
+.contact__fill{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact__l{
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+.contact .contact__l img{
+  width: 500px;
+  border-radius: 10px;
+}
+
+
+.contact .contact__r{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(5, 17, 109);
+}
+
+.contact__r .contact__email input{
+  border: auto;
+  width: 500px;
+  border: 1px solid #dc4f72;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 7px;
+  background-color: #f7f9fc;
+  padding-left: 20px;
+  outline: 1px solid #160207 ;
+  
+  
+}
