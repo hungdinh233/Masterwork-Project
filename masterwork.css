@@ -874,7 +874,7 @@
   font-size: 15px;
 }
 
-.booking__button .button__right:hover {
+.button__right:hover {
   background-color: #a0183a;
   border: #8e092a;
 }
@@ -1020,70 +1020,161 @@
 /* CSS CONTACT */
 /* CSS CONTACT */
 
-.log{
+.log {
   width: 100%;
   height: 95px;
-  background-color: #1c6ae0;
+  background-color: #f7f9fc;
   display: flex;
   align-items: flex-end;
   font-size: 14px;
   padding-bottom: 9px;
 }
+.log i{
+  font-size: 12px;
+ 
+}
+.log a{
+  text-decoration: underline;
+}
 
 /* contact us */
-.contact{
+.contact {
   width: 100%;
-  height: 700px;
-  background: #000;
+  height: 800px;
+  /* background: #000; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.contact .contact__input h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
-.contact .container{
+
+
+.contact .container {
   width: 100%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
-  justifcontact__emaily-content: center;
+  justify-content: center;
   align-items: center;
 }
 
-.contact__fill{
+.contact__fill {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contact .contact__l{
+.contact .contact__l {
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
-.contact .contact__l img{
+.contact .contact__l img {
   width: 500px;
   border-radius: 10px;
+  transition: all .5s;
+}
+
+.contact .contact__l img:hover {
+  transform: translateY(-20px);
 }
 
 
-.contact .contact__r{
+
+.contact .contact__r {
   width: 50%;
   height: 100%;
-  background-color: rgb(5, 17, 109);
+  border-radius: 7px;
+  box-shadow: 10px 10px 10px rgb(180, 177, 177, 0.3);
+  /* background-color: rgb(5, 17, 109); */
 }
-
-.contact__r .contact__email input{
+.contact__r .contact__email  {
+  margin-top: 30px;
+}
+.contact__r .contact__email input {
   border: auto;
   width: 500px;
-  border: 1px solid #dc4f72;
+  border: .5px solid #dc4f72;
   height: 50px;
   margin-right: 10px;
   border-radius: 7px;
   background-color: #f7f9fc;
   padding-left: 20px;
-  outline: 1px solid #160207 ;
-  
-  
+  margin-bottom: 20px;
+  color: #dc4f72 ;
+}
+
+.message {
+  height: 130px;
+  width: 500px;
+  border: auto;
+  border: 1px solid #ee0e46;
+  margin-right: 10px;
+  border-radius: 7px;
+  background-color: #f7f9fc;
+  padding-left: 20px;
+  padding-bottom: 70px;
+  margin-bottom: 20px;
+  color:#dc4f72;
+}
+
+.info {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f9fc;
+}
+
+.info .col {
+  height: 250px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(170, 168, 168, 0.4);
+}
+
+.info h3 {
+  font-size: 20px;
+}
+.info .col p{
+  font-size: 13px;
+ 
+}
+
+.info .info__icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: rgba(220, 79 ,114, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #cd4869;
+}
+.info .col a {
+ transition: all 0.5s;
+ font-weight: 500;
+ font-size: 20px;
+}
+.info .col a:hover{
+ color: #cd4869 ;
+ text-decoration: underline;
+
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
 }
