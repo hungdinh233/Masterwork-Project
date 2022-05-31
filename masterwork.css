@@ -128,6 +128,10 @@
   justify-content: center;
   align-items: flex-start;
 }
+.btn , .btn-secondary , .dropdown-toggle , .nav__toggler{
+  width: 50px;
+  
+}
 .header .navbar .dropdown:hover .line {
   width: 40%;
 }
@@ -1181,7 +1185,7 @@
 .header .nav__toggler {
   background-color: transparent;
   border: none;
-  display: none;
+  display: block;
 }
 .header .nav__toggler i {
   background-color: transparent;
