@@ -1185,7 +1185,7 @@
 .header .nav__toggler {
   background-color: transparent;
   border: none;
-  display: block;
+  display: none;
 }
 .header .nav__toggler i {
   background-color: transparent;
@@ -1424,8 +1424,11 @@
   }
 
   .tools {
-    height: 980px;
+    height: 1030px;
     
+  }
+  .tools .tools__top{
+    height: 280px;
   }
   .tools .container {
     height: 800px;
